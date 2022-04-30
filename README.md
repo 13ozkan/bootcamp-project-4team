@@ -5,9 +5,9 @@ Project Team - 4
 ## Ürün İle İlgili Bilgiler
 
 # Takım Elemanları
-Product Owner - Aybala Özer 
-Scrum Master -  İbrahim Menek 
-Developer -  Afra Çalık,  Utku Gögen,  Özkan Öztürk 
+**Product Owner** - Aybala Özer | 
+**Scrum Master** -  İbrahim Menek |
+**Developer** -  Afra Çalık,  Utku Gögen,  Özkan Öztürk 
 
 # Ürün Adı
 Grap and Run
