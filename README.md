@@ -10,19 +10,33 @@ Project Team - 4
 **Developer** -  Afra Çalık,  Utku Gögen,  Özkan Öztürk 
 
 ### Ürün Adı
-Grap and Run
+Grab and Run
 
 ## Ürün Açıklaması 
 
-1- Karakter para toplasın
+1) Karakter beyin toplar.
 
-2- Polisler kovalasın
+2) Zombiye çevirdiği insanlar karaktere katılır.
 
-3- Engellere çarpınca para azalabilir.
+3) Engellere çarpınca karakter yavaşlar.
 
-4- Polislerin mesafesi azalabilir.
+4) Düşmanlara temas edilmesi halinde karakterin ekibinde azalma gerçekleşir.
 
-5- Belli bir sayıda hedefe çarptığında game-over olur.
+5) Belli bir sayıda hedefe çarptığında game-over olur.
 
-6- Yakalanmazsa sonda dans edip diğer levele geçer 
+6) Bölümün sonuna gelirse bölüm sonu canavarı ile savaşır, kazanırsa sonraki bölüme geçer.
+
+## Ürün Açıklaması
+
+## Ürün Özellikleri
+
+## Hedef Kitle
+
+1) Zaman öldürmek isteyenler
+
+2) 18-35 yaş arası kullanıcılar
+
+3) Telefonda oyun oynayanlar
+
+
 
