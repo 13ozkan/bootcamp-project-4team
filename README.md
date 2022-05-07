@@ -28,6 +28,8 @@ Grab and Run
 
 ## Ürün Açıklaması
 
+3D Hyper Casual - Runner
+
 ## Ürün Özellikleri
 
 ## Hedef Kitle
@@ -39,4 +41,12 @@ Grab and Run
 3) Telefonda oyun oynayanlar
 
 
+### Sprint
 
+## Sprint 1
+
+- Takım adı belirlendi.
+- Takım rolleri belirlendi.
+- Oyun fikri belirlendi.
+- Oyun mekaniği bulundu.
+- Kullanılacak assetler belirlendi.
