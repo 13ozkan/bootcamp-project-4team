@@ -31,23 +31,24 @@ Grab and Run
 - 18-35 yaş arası kullanıcılar
 - Telefonda oyun oynayanlar
 
-# Sprint
-
 ## Sprint 1
 
-- Sprint notları: Kullanıcı hikayeleri, her bir task'in detaylar kısmına yazılmış, her task'e bir sorumlu atanmıştır. İş takibi Asana'da yapılmasına karar verilmiştir.
+- Sprint notları: Kullanıcı hikayeleri, her bir task'in detaylar kısmına yazılmış, her task'e bir sorumlu atanmıştır. İş takibinin Asana'da yapılmasına karar verilmiştir.
+
 - Sprint içinde tamamlanması tahmin edilen puan: 
+
 - Puan toplama mantığı: 
+
 - Backlog düzeni ve Hikaye seçimleri: 
+
 - Daily Scrum: Daily Scrum toplantılarının Discord üzerinden sesli bir şekilde yapılmasına karar verilmiştir.
-- Sprint Board Screenshot:
-- Sprint Review: Büyük bir sorun saptanmamıştır. Çalışmaların rayına oturtulmasına ve hızlandırılmasına karar verilmiştir. Eklenmesi ve yerine getirilmesi gereken görevler seçilmiştir. Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Aybala Özer, İbrahim Menek
+![bootcamp_proof1](https://user-images.githubusercontent.com/90201048/167458822-83b4d0c5-401f-4363-bf25-607533139c65.png)
+
+- Sprint Board Screenshot: ![bootcamp_firstsprint_proof](https://user-images.githubusercontent.com/90201048/167457911-38ae8815-55dd-40c4-bd29-0aa7ec7f2673.png)
+
+- Sprint Review: Büyük bir sorun saptanmamıştır. Çalışmaların rayına oturtulmasına ve hızlandırılmasına karar verilmiştir. Eklenmesi ve yerine getirilmesi gereken görevler seçilmiştir. 
+Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Aybala Özer, İbrahim Menek
+
 - Sprint Retrospective:
 Task'ler için daha fazla zaman ayırılmalı.
 İletişimde daha sık kalınmalı.
-
-- Takım adı belirlendi.
-- Takım rolleri belirlendi.
-- Oyun fikri belirlendi.
-- Oyun mekaniği bulundu.
-- Kullanılacak assetler belirlendi.
