@@ -41,8 +41,9 @@ Grab and Run
 
 - Backlog düzeni ve Hikaye seçimleri: 
 
-- Daily Scrum: Daily Scrum toplantılarının Discord üzerinden sesli bir şekilde yapılmasına karar verilmiştir.
-![bootcamp_proof1](https://user-images.githubusercontent.com/90201048/167458822-83b4d0c5-401f-4363-bf25-607533139c65.png)
+- Daily Scrum: Daily Scrum toplantılarının Discord üzerinden sesli bir şekilde yapılmasına karar verilmiştir. 
+
+  ![bootcamp_proof1](https://user-images.githubusercontent.com/90201048/167458822-83b4d0c5-401f-4363-bf25-607533139c65.png)
 
 - Sprint Board Screenshot: ![bootcamp_firstsprint_proof](https://user-images.githubusercontent.com/90201048/167457911-38ae8815-55dd-40c4-bd29-0aa7ec7f2673.png)
 
@@ -50,5 +51,5 @@ Grab and Run
 Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Aybala Özer, İbrahim Menek
 
 - Sprint Retrospective:
-Task'ler için daha fazla zaman ayırılmalı.
-İletişimde daha sık kalınmalı.
+  - Task'ler için daha fazla zaman ayırılmalı.
+  - İletişimde daha sık kalınmalı.
