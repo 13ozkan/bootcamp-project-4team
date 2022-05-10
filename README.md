@@ -50,6 +50,7 @@ Grab and Run
 
 - Sprint Board Screenshot: ![bootcamp_firstsprint_proof](https://user-images.githubusercontent.com/90201048/167483521-baf1ceb7-d95b-4adb-b65d-9e07c2e994df.png)
 
+  [Asana 1. Sprint Linki](https://app.asana.com/0/1202192740989048/board)
 
 - Sprint Review: Büyük bir sorun saptanmamıştır. Çalışmaların rayına oturtulmasına ve hızlandırılmasına karar verilmiştir. Eklenmesi ve yerine getirilmesi gereken görevler seçilmiştir. 
 Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Aybala Özer, İbrahim Menek
