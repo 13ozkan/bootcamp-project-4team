@@ -31,6 +31,8 @@ Grab and Run
 - 18-35 yaş arası kullanıcılar
 - Telefonda oyun oynayanlar
 
+### [Product Backlog](https://app.asana.com/0/1202263160230748/board)
+
 ## Sprint 1
 
 - Sprint notları: Kullanıcı hikayeleri, her bir task'in detaylar kısmına yazılmış, her task'e bir sorumlu atanmıştır. İş takibinin Asana'da yapılmasına karar verilmiştir.
