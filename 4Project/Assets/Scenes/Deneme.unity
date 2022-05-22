@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657946, g: 0.49641418, b: 0.574816, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657975, g: 0.4964149, b: 0.5748165, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -133,6 +133,10 @@ PrefabInstance:
     - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_Name
       value: YuruyenAdam (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
       objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
@@ -265,6 +269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "YuruyenKad\u0131n (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 6252356961377389083, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
+      propertyPath: m_TagString
+      value: Collect
+      objectReference: {fileID: 0}
     - target: {fileID: 6252356961377389115, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -336,6 +344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YuruyenAdam (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
+      objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -400,6 +412,10 @@ PrefabInstance:
     - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_Name
       value: YuruyenAdam (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
       objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
@@ -478,6 +494,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 1
+--- !u!114 &574766020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574766018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e6014f490878f488d103b7701ab556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cnuyde: {fileID: 0}
+  asss: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,6 +729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YuruyenAdam (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
+      objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -771,6 +805,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 1
+--- !u!1 &831939658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8028515795040729145, guid: d60a0d1dc1c034edb92bbdda89d16250, type: 3}
+  m_PrefabInstance: {fileID: 1801790291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &831939663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831939658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371e27ec9e20c0444b977c2f0794baa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sayi: 0
 --- !u!1 &831973423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,6 +1147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "YuruyenKad\u0131n (4)"
       objectReference: {fileID: 0}
+    - target: {fileID: 6252356961377389083, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
+      propertyPath: m_TagString
+      value: Collect
+      objectReference: {fileID: 0}
     - target: {fileID: 6252356961377389115, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1207,6 +1263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "YuruyenKad\u0131n"
       objectReference: {fileID: 0}
+    - target: {fileID: 6252356961377389083, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
+      propertyPath: m_TagString
+      value: Collect
+      objectReference: {fileID: 0}
     - target: {fileID: 6252356961377389115, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1224,6 +1284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YuruyenAdam (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
+      objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1238,7 +1302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.06
+      value: 12.55
       objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1355,6 +1419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "YuruyenKad\u0131n (5)"
       objectReference: {fileID: 0}
+    - target: {fileID: 6252356961377389083, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
+      propertyPath: m_TagString
+      value: Collect
+      objectReference: {fileID: 0}
     - target: {fileID: 6252356961377389115, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1420,6 +1488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "YuruyenKad\u0131n (3)"
       objectReference: {fileID: 0}
+    - target: {fileID: 6252356961377389083, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
+      propertyPath: m_TagString
+      value: Collect
+      objectReference: {fileID: 0}
     - target: {fileID: 6252356961377389115, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1454,6 +1526,10 @@ PrefabInstance:
     - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_Name
       value: YuruyenAdam (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
       objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
@@ -1567,6 +1643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Y\xFCr\xFCyenAdam (2)"
       objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
+      objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -1631,6 +1711,10 @@ PrefabInstance:
     - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_Name
       value: YuruyenAdam (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
       objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
@@ -1875,7 +1959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6252356961376966267, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.28
+      value: 15.477
       objectReference: {fileID: 0}
     - target: {fileID: 6252356961376966267, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1908,6 +1992,10 @@ PrefabInstance:
     - target: {fileID: 6252356961377389083, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
       propertyPath: m_Name
       value: "YuruyenKad\u0131n (1)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6252356961377389083, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
+      propertyPath: m_TagString
+      value: Collect
       objectReference: {fileID: 0}
     - target: {fileID: 6252356961377389115, guid: 2db03e7c8a8135146b280e5da7e0289c, type: 3}
       propertyPath: m_IsActive
@@ -1970,6 +2058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8028515795040729145, guid: d60a0d1dc1c034edb92bbdda89d16250, type: 3}
+      propertyPath: m_TagString
+      value: pl
+      objectReference: {fileID: 0}
     - target: {fileID: 8028515795040756825, guid: d60a0d1dc1c034edb92bbdda89d16250, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -2031,6 +2123,10 @@ PrefabInstance:
     - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_Name
       value: YuruyenAdam (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
       objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
@@ -2096,6 +2192,10 @@ PrefabInstance:
     - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_Name
       value: YuruyenAdam (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
       objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
@@ -2253,6 +2353,10 @@ PrefabInstance:
     - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_Name
       value: "Y\xFCr\xFCyenAdam (1)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
       objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
@@ -2446,12 +2550,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564316051344110230}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9012452dd6eaa468d83ca3274ab20389, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hiz: 1
+--- !u!114 &564316051344110236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564316051344110230}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5807004682f5f94a875219d18007931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nude: {fileID: 784050051}
+  asss: 0
 --- !u!1001 &2135227828914492798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2462,6 +2580,14 @@ PrefabInstance:
     - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_Name
       value: "Y\xFCr\xFCyenAdam"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906430089026906088, guid: d5468f285af104defb6853804f3ae941, type: 3}
+      propertyPath: m_TagString
+      value: Collect
       objectReference: {fileID: 0}
     - target: {fileID: 1906430089027337096, guid: d5468f285af104defb6853804f3ae941, type: 3}
       propertyPath: m_RootOrder
