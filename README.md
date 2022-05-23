@@ -81,8 +81,11 @@ Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Ayb
 
   [Asana 2. Sprint Linki](https://app.asana.com/0/1202263216320457/board)
 
-- **Sprint Review**:
+- **Sprint Review**: İşlerin beklenen hızda ilerleme kaydetmediği, sürecin yavaş ilerlediği fark edilmiştir. Daha koordine bir şekilde çalışılıp, yapılması gereken işlerin kısa sürede bitirilmesi planlanmıştır. Sprint Review katılımcıları: Özkan Öztürk, Aybala Özer, Utku Gögen, Afra Çalık, İbrahim Menek
 
 - **Sprint Retrospective**:
+
+  - İşler hızlandırılmalı
+  - Ürün teknik anlamda son haline getirilmeli
 
 ---
