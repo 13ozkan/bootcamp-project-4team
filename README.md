@@ -63,17 +63,21 @@ Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Ayb
 
 ## Sprint 2
 
-- **Sprint Notları**:
+- **Sprint Notları**: İlk sprintte yapıldığı gibi, kullanıcı hikayeleri, her bir task'in detaylar kısmına yerleştirilmiş, aynı şekilde her task'e bir sorumlu atanmıştır. İş takibinin Asana'da yapılmasının devam edilmesine karar verilmiştir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 102 Puan
 
-- **Puan toplama mantığı**:
+- **Puan toplama mantığı**: Product Backlog'da toplamda ortalama 300 puanlık iş bulunmaktadır. İlk sprintteki politikamızı sürdürerek, ikinci sprintte de ortalama 100 puanlık iş yapmayı planlıyoruz.
 
-- **Backlog düzeni ve hikaye seçimleri**:
+- **Backlog düzeni ve hikaye seçimleri**: Geriye kalan product backlog işlerinden, daha önce eklenmesinin daha hayati olduğunu düşündüklerimizi bu sprinte yerleştirdik.
 
-- **Daily Scrum**:
+- **Daily Scrum**: Daily scrumların discord üzerinden sesli bir şekilde yürütülmesine devam edilmiştir.
 
-- **Sprint Board Screenshot**:
+  ![scrum_voice_channel_sprint_2](https://user-images.githubusercontent.com/90201048/169775949-71a66e0e-9ab9-4eb6-bcc2-f20e287a2f03.jpg)
+
+  ![daily_scrum_sprint_2](https://user-images.githubusercontent.com/90201048/169775095-aaba75d6-5738-48d2-a119-4259e547b917.png)
+
+- **Sprint Board Screenshot**: ![bootcamp_sprint_2_screenshot](https://user-images.githubusercontent.com/90201048/169773051-df953aef-d298-4f69-973a-8aad16b7def0.png)
 
   [Asana 2. Sprint Linki](https://app.asana.com/0/1202263216320457/board)
 
