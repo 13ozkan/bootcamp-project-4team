@@ -89,3 +89,23 @@ Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Ayb
   - Ürün teknik anlamda son haline getirilmeli
 
 ---
+
+## Sprint 3
+
+- **Sprint Notları**:
+
+- **Sprint içinde tamamlanması tahmin edilen puan**:
+
+- **Puan toplama mantığı**:
+
+- **Backlog düzeni ve hikaye seçimleri**:
+
+- **Daily Scrum**:
+
+- **Sprint Board Screenshot**:
+
+  [Asana 3. Sprint Linki](https://app.asana.com/0/1202342425101357/1202342425101403)
+
+- **Sprint Review**:
+
+- **Sprint Retrospective**:
