@@ -5,29 +5,28 @@ using DG.Tweening;
 
 public class Player : MonoBehaviour
 {
-    Animator anim; //player'a bağlı animator
-    public static bool menuShowing; //menü gösterilip gösterilmediğini kontrol etmek için
+    Animator playerAnimator; //player'a bağlı animator
+    public static bool menuGorunuyor; //menü gösterilip gösterilmediğini kontrol etmek için
 
-    bool karakterArkasinaDondu = false;
+    bool karakterArkasinaDondu = false; //karakter oyuna kameraya dogru bakarak basladi
 
-    private DynamicJoystick dynamicJoystick;
+    private DynamicJoystick dynamicJoystick;//Player'ı kontrol edecek joystick
 
-    float horizontal, vertical;
+    float horizontal, vertical; //joystick kontrolu icin yatay ve dikey degiskenler
 
-    public float hiz;
-    public float yatayHiz;
-    public float donusHizi;
+    public float hiz; //ileri gitme hizi
+    public float yatayHiz; //yatayda hareket etme hizi
 
-    private GameManager gameManager;
+    private GameManager gameManager;//Menu gorunurlugu gibi bilgileri kontrol etmek icinn GameManager
 
 
     void Start()
     {
         //objeye bağlı animatoru anim değişkenine ekle
-        anim = GetComponent<Animator>();
+        playerAnimator = GetComponent<Animator>();
 
         //level başında menü görünüyor
-        menuShowing = true;
+        menuGorunuyor = true;
 
         //sahnedeki joystick objesini değişkene ata
         dynamicJoystick = FindObjectOfType<DynamicJoystick>();
@@ -40,32 +39,36 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-
+        //Kullanıcı sol mouse tuşuna basarsa (veya ekrana dokunursa) olacaklar
          if (Input.GetButton("Fire1"))
          {
-             if (menuShowing)
+            //oyun menüsü görünür durumdaysa yok et,gamemanager'a oyunun başladığını bildir
+             if (menuGorunuyor)
              {
-                 menuShowing = false;
+                 menuGorunuyor = false;
 
                  gameManager.GameStart();
 
-                //karakteri arkasına döndür
+                //Player karakterini dotween ile istenilen sürede arkasına döndürme sequence'ını baslat
                 var sequence = DOTween.Sequence();
                 sequence.Append(gameObject.transform.DORotate(new Vector3(0, 0, 0), 0.5f));
 
+                //döndürme işlemi bitince hareket etme animasyonunu başlat
                 sequence.OnComplete(() =>
                 {
                     karakterArkasinaDondu = true;
                     Move();
                 });
 
-             }else if (!menuShowing)
+             }//eğer menü görünür değilse joystick kontrollerini etkinleştir
+            else if (!menuGorunuyor)
                 {
                     JoystickMovement();
                 }
          }
 
-        if (!menuShowing && karakterArkasinaDondu)
+         //eğer menü görünmüyor ve karakte arkasına dönükse ileri doğru belirlenen hızla ilerle
+        if (!menuGorunuyor && karakterArkasinaDondu)
         {
             Vector3 addedPos = new Vector3(0, 0, hiz * Time.fixedDeltaTime);
             transform.position += addedPos;
@@ -73,14 +76,12 @@ public class Player : MonoBehaviour
         }
     }
 
+    //joystick kontrolleri
     public void JoystickMovement()
     {
 
         horizontal = dynamicJoystick.Horizontal;
         vertical = dynamicJoystick.Vertical;
-
-        Vector3 direction = Vector3.forward * vertical + Vector3.right * horizontal;
-        //transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(direction), turnSpeed * Time.fixedDeltaTime);
 
         Vector3 addedPos = new Vector3(horizontal * yatayHiz * Time.deltaTime, 0, vertical * hiz * Time.fixedDeltaTime);
         transform.position += addedPos;
@@ -90,27 +91,27 @@ public class Player : MonoBehaviour
     //karakterin animasyonunu beklemeye çevir
     private void Idle()
     {
-        anim.SetBool("isMoving", false);
+        playerAnimator.SetBool("isMoving", false);
     }
 
     //karakterin animasyonunu yürümeye çevir
     private void Move()
     {
-        anim.SetBool("isMoving", true);
+        playerAnimator.SetBool("isMoving", true);
 
     }
 
     //karakterin animasyonunu kazanmaya çevir
     private void Win()
     {
-        anim.SetBool("isWin", true);
+        playerAnimator.SetBool("isWin", true);
 
     }
 
     //karakterin animasyonunu kaybetmeye çevir
     private void Failed()
     {
-        anim.SetBool("isFailed", true);
+        playerAnimator.SetBool("isFailed", true);
 
     }
 }

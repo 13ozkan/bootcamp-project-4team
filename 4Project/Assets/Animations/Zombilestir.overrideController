@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Zombilestir
+  m_Controller: {fileID: 9100000, guid: 3ab0a26f722d8432eaede29d2ea3b785, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 77b1f4b79b2534373b2d3009700b3897, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 5cf4aca7db0b342ecbe7e5a54fbfd35b, type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: ed07fb06a004e4c3ba7830a6d68f1607, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 0809f4922ce1e4cb793613a5a38470e3, type: 3}

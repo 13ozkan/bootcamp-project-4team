@@ -4,32 +4,37 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject startScreen;
-    bool baloncukGoster = true;
+    public GameObject startScreen; //Oyun baslangic menusu
+    bool baloncukGoster = true; //Player'ın tepesinde gorunen fikir balonu oyun ilk acildiginda gorunur durumda
+    public AudioManager audioManager;
 
-    void Start()
+    private void Start()
     {
-
+        audioManager.PlayLooped("arkaplan");
     }
 
     void Update()
     {
-        if(Player.menuShowing == false)
+        //Menu gorunur değilse GameStart'ı tetikle.
+        if(Player.menuGorunuyor == false)
         {
             GameStart();
         }
     }
 
 
-    //oyun oynanmaya başladı
+    //Oyun oynanmaya başladı
     public void GameStart()
     {
+        //Fikir balonu gorunuyorsa
         if(baloncukGoster == true)
         {
             //Fikir baloncuğunu yok et
             GameObject.FindWithTag("FikirBalonu").SetActive(false);
 
+            //baloncukGoster'ı false yap
             baloncukGoster = false;
+
         }
         
 
@@ -41,7 +46,8 @@ public class GameManager : MonoBehaviour
     //oyun kaybedildi
     public void GameOver()
     {
-        Player.menuShowing = true;
+        //Menu gorunmuyor
+        Player.menuGorunuyor = true;
 
         //X saniye sonra bölümü tekrar başlat
         Invoke("RestartScene", 2.2f);
@@ -51,7 +57,8 @@ public class GameManager : MonoBehaviour
     //bölüm geçildi
     public void LevelCompleted()
     {
-        Player.menuShowing = true;
+        //Menu gorunuyor
+        Player.menuGorunuyor = true;
 
     }
 
@@ -59,7 +66,7 @@ public class GameManager : MonoBehaviour
     //bölümü tekrar başlat
     void RestartScene()
     {
-        //Aktif sahneyi tekrar yükle
+        //Sahneler hiyerarşisinde aktif olan sahneyi tekrar yükle.
         UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
 
     }
