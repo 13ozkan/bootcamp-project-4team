@@ -113,6 +113,7 @@ public class Player : MonoBehaviour
         anim.SetBool("isFailed", true);
 
     }
+
 }
 
 

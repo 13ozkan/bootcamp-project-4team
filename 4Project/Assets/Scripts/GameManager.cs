@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public GameObject startScreen;
     bool baloncukGoster = true;
+    public GameObject player;
+
 
     void Start()
     {
@@ -41,10 +43,16 @@ public class GameManager : MonoBehaviour
     //oyun kaybedildi
     public void GameOver()
     {
-        Player.menuShowing = true;
+       
+
+        if (player.transform.position.y < 0)
+        {
+            Player.menuShowing = true;
+            Invoke("RestartScene", 2.2f);
+        }
 
         //X saniye sonra bölümü tekrar başlat
-        Invoke("RestartScene", 2.2f);
+        
 
     }
 

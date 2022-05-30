@@ -20,7 +20,8 @@ public class NudeCollect : MonoBehaviour
 
 
             );
-        
+
+        Debug.Log("nudecollect");
     }
 
     private void OnTriggerEnter(Collider other)
