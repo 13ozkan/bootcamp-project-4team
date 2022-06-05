@@ -15,7 +15,6 @@ Grab and Run
 3D Hyper Casual - Runner
 
 ### Ürün Özellikleri 
-- Karakter beyin toplar.
 - Zombiye çevirdiği insanlar karaktere katılır.
 - Engellere çarpınca karakter yavaşlar.
 - Düşmanlara temas edilmesi halinde karakterin ekibinde azalma gerçekleşir.
@@ -92,15 +91,19 @@ Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Ayb
 
 ## Sprint 3
 
-- **Sprint Notları**:
+- **Sprint Notları**: İlk iki sprintte yapıldığı gibi, kullanıcı hikayeleri, her bir task'in detaylar kısmına yazılmıştır. Her task'e bir sorumlu atanmıştır. İş takibi Asana üzerinden yapılmıştır.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**:
+- **Sprint içinde tamamlanması tahmin edilen puan**: 101 Puan
 
-- **Puan toplama mantığı**:
+- **Puan toplama mantığı**: Product Backlog'da bulunan 300 puanlık işin 1/3'ünü, yani ortalama 100 puanlık işi, 3. sprintte tamamlamayı hedefliyoruz.
 
-- **Backlog düzeni ve hikaye seçimleri**:
+- **Backlog düzeni ve hikaye seçimleri**: Product Backlog'da kalan son görevleri, tamamlamak üzere bu sprinte yerleştirdik.
 
-- **Daily Scrum**:
+- **Daily Scrum**: Daily Scrumlar, ilk iki sprintte olduğu gibi discord üzerinden sesli olarak yapılmıştır.
+
+  ![sprint_3_daily_scrum](https://user-images.githubusercontent.com/90201048/172054557-3f84f454-e5d3-4b4d-8d03-e46b1429fb6c.png)
+
+  ![sprint_3_daily_scrum_dc](https://user-images.githubusercontent.com/90201048/172055013-da6cd6d9-81e1-4615-96f9-8bfe098b9bcf.png)
 
 - **Sprint Board Screenshot**:
 
