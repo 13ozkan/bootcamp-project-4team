@@ -28,6 +28,8 @@ Grab and Run
 
 ### [Product Backlog](https://app.asana.com/0/1202263160230748/board)
 
+### [Kullanılan Assetler Listesi](https://docs.google.com/document/d/100OjJ8gDJDER2vHXi35ezCe3u7McvlFHVRlO_w7YFaE/edit?usp=sharing)
+
 ---
 
 ## Sprint 1
@@ -52,7 +54,7 @@ Grab and Run
   [Asana 1. Sprint Linki](https://app.asana.com/0/1202192740989048/board)
 
 - **Sprint Review**: Büyük bir sorun saptanmamıştır. Çalışmaların rayına oturtulmasına ve hızlandırılmasına karar verilmiştir. Eklenmesi ve yerine getirilmesi gereken görevler seçilmiştir. 
-Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Aybala Özer, İbrahim Menek
+  - Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Aybala Özer, İbrahim Menek
 
 - **Sprint Retrospective**:
   - Task'ler için daha fazla zaman ayırılmalı.
@@ -80,7 +82,8 @@ Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Ayb
 
   [Asana 2. Sprint Linki](https://app.asana.com/0/1202263216320457/board)
 
-- **Sprint Review**: İşlerin beklenen hızda ilerleme kaydetmediği, sürecin yavaş ilerlediği fark edilmiştir. Daha koordine bir şekilde çalışılıp, yapılması gereken işlerin kısa sürede bitirilmesi planlanmıştır. Sprint Review katılımcıları: Özkan Öztürk, Aybala Özer, Utku Gögen, Afra Çalık, İbrahim Menek
+- **Sprint Review**: İşlerin beklenen hızda ilerleme kaydetmediği, sürecin yavaş ilerlediği fark edilmiştir. Daha koordine bir şekilde çalışılıp, yapılması gereken işlerin kısa sürede bitirilmesi planlanmıştır. 
+  - Sprint Review katılımcıları: Özkan Öztürk, Aybala Özer, Utku Gögen, Afra Çalık, İbrahim Menek
 
 - **Sprint Retrospective**:
 
@@ -105,10 +108,13 @@ Sprint Review katılımcıları: Özkan Öztürk, Afra Çalık, Utku Gögen, Ayb
 
   ![sprint_3_daily_scrum_dc](https://user-images.githubusercontent.com/90201048/172055013-da6cd6d9-81e1-4615-96f9-8bfe098b9bcf.png)
 
-- **Sprint Board Screenshot**:
+- **Sprint Board Screenshot**: ![asana_sprint_3_ss](https://user-images.githubusercontent.com/90201048/172116552-6d45bbf1-ecef-4459-a40f-00d2802ab191.png)
 
   [Asana 3. Sprint Linki](https://app.asana.com/0/1202342425101357/1202342425101403)
 
-- **Sprint Review**:
+- **Sprint Review**: Genel anlamda ürün son haline getirilmiştir. Reddedilen birkaç task olmasına rağmen ürün istenen seviyeye ulaşmış, son cilalar atılmıştır.
+  - Sprint Review katılımcıları: Afra Çalık, Aybala Özer, Özkan Öztürk, Utku Gögen, İbrahim Menek
 
 - **Sprint Retrospective**:
+
+  - Gelecek projelerde daha koordine olunmalı
