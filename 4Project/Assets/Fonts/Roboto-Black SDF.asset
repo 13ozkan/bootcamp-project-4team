@@ -17,8 +17,7 @@ MonoBehaviour:
   materialHashCode: -2104674096
   m_Version: 1.1.0
   m_SourceFontFileGUID: 09b0c939fd47440f089e64c866e42f1d
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 09b0c939fd47440f089e64c866e42f1d,
-    type: 3}
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 09b0c939fd47440f089e64c866e42f1d, type: 3}
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
   m_FaceInfo:
@@ -2663,7 +2662,7 @@ Material:
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnderlayColor: {r: 0.7735849, g: 0.04334743, b: 0, a: 1}
+    - _UnderlayColor: {r: 0.77254903, g: 0, b: 0.029640967, a: 1}
   m_BuildTextureStacks: []
 --- !u!28 &6595615725514370429
 Texture2D:

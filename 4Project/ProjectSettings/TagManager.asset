@@ -4,10 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - FikirBalonu
   - Collect
+  - FikirBalonu
   - Collected
-  - pl
+  - Dusman
+  - ZombiSayisiBalonu
+  - BeyinTrigger
   layers:
   - Default
   - TransparentFX

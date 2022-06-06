@@ -6,28 +6,26 @@ public class CameraFollow : MonoBehaviour
 {
 
     [SerializeField]
-    private Transform player;
-    private Vector3 offset;
-    public bool canFollow;
+    private Transform player; //takip edilecek obje
+    private Vector3 takipUzakligi; //player ve kamera arasındaki uzaklik
+    public bool takipEdebilir; //kamera player'ı takip edebilir mi? kontrolü
 
-
-    // Start is called before the first frame update
+    //başlangıçta kamerayı takipEdebilir olarak işaretle.
+    //player ve kamera arasındaki uzaklığı takipUzaklığı değişkenine ata
     void Start()
     {
-        canFollow = true;
-        offset = transform.position - player.transform.position;
+        takipEdebilir = true;
+        takipUzakligi = transform.position - player.transform.position;
     }
 
     private void FixedUpdate()
     {
-        if(Player.menuShowing == true)
+        //menu gorunmuyorsa ve takipEdebilir şeklinde işaretliyse; istenilen takip uzaklığıyla player'ı takip et
+        if(Player.menuGorunuyor == false)
         {
-            //bir şey yapma
-        }else if(Player.menuShowing == false)
-        {
-            if (!canFollow) return;
+            if (!takipEdebilir) return;
 
-            transform.position = new Vector3(transform.position.x, transform.position.y, player.position.z + offset.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y, player.position.z + takipUzakligi.z);
         }
 
        
