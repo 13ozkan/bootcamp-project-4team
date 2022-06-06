@@ -8,9 +8,11 @@ public class GameManager : MonoBehaviour
     public GameObject startScreen; //Oyun baslangic menusu
     bool baloncukGoster = true; //Player'ın tepesinde gorunen fikir balonu oyun ilk acildiginda gorunur durumda
     public AudioManager audioManager;
-    public GameObject fikirBalonu;
-    public GameObject zombiSayisiBalonu;
-    public GameObject zombiSayisi;
+    public GameObject fikirBalonu;//karakterin kafasındaki düşünce blaonu
+    public GameObject zombiSayisiBalonu;//karakterin kaç kişiyi zzombi yaptığının sayısını gösteren balon
+    public GameObject zombiSayisi;//karakterin kaç kişiyi zombi yaptığını yazan text
+    public GameObject winScreen;
+    public GameObject gameOverScreen;
 
     private void Start()
     {
@@ -80,6 +82,8 @@ public class GameManager : MonoBehaviour
         //Menu gorunmuyor
         Player.menuGorunuyor = true;
 
+        gameOverScreen.SetActive(true);
+
         //X saniye sonra bölümü tekrar başlat
         Invoke("RestartScene", 2.2f);
 
@@ -89,8 +93,12 @@ public class GameManager : MonoBehaviour
     public void LevelCompleted()
     {
         //Menu gorunuyor
-        Player.menuGorunuyor = true;
+        //Player.menuGorunuyor = true;
 
+        winScreen.SetActive(true);
+
+        //Zombi sayısı baloncuğunu gizle
+        zombiSayisiBalonu.SetActive(false);
     }
 
 

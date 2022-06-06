@@ -1543,6 +1543,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7b6015e4c0b4623a9ec1c146cd2c91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kazanmaAnimationOverride: {fileID: 0}
+  danceAnimationOverride: {fileID: 0}
 --- !u!1 &4580051011232549958
 GameObject:
   m_ObjectHideFlags: 0
