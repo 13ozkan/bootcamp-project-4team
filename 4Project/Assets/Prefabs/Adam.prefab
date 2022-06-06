@@ -558,6 +558,7 @@ GameObject:
   - component: {fileID: 7631117029474165191}
   - component: {fileID: 7631117029474165190}
   - component: {fileID: 7631117029474165189}
+  - component: {fileID: 71663262}
   m_Layer: 0
   m_Name: Adam
   m_TagString: Collect
@@ -644,6 +645,20 @@ MonoBehaviour:
   hiz: 1
   dumanEfekti: {fileID: 4145514144149887972, guid: 6e48b6ce31d16465ba848d8d720f7a90, type: 3}
   zombilestirAnimatorOverride: {fileID: 22100000, guid: da90b5108c8594a5294c6040d5956b4c, type: 2}
+  audioManager: {fileID: 0}
+--- !u!114 &71663262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7631117029474165188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be764bbe5e33d43ee95809d5f5208af2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dumanYokOlma: {fileID: 5714801193320763047, guid: 59c73ec5194f24e8c9ab4285275292f0, type: 3}
   audioManager: {fileID: 0}
 --- !u!1 &7631117029568722837
 GameObject:

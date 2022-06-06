@@ -9,11 +9,12 @@ public class NodeCollect : MonoBehaviour
 
     void LateUpdate()
     {
+
+            //Öne doğru sıra şeklinde eklenme
             transform.position = new Vector3(
             Mathf.Lerp(transform.position.x, Node.position.x, Time.deltaTime * gecikmeHizi),
             Node.position.y,
-            Node.position.z + 1);
-        
-    }
+            Node.position.z + 2);
 
+    }
 }
