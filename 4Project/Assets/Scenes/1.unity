@@ -2000,7 +2000,7 @@ PrefabInstance:
       objectReference: {fileID: 516958395}
     - target: {fileID: 7263753638012195222, guid: d60a0d1dc1c034edb92bbdda89d16250, type: 3}
       propertyPath: hiz
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8028515795040729145, guid: d60a0d1dc1c034edb92bbdda89d16250, type: 3}
       propertyPath: m_Name
@@ -2065,7 +2065,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1008050101, guid: b32a742e7d5b348adb02f5643d268f24, type: 3}
       propertyPath: "beyinCan\u0131"
-      value: 15
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1008050101, guid: b32a742e7d5b348adb02f5643d268f24, type: 3}
       propertyPath: audioManager
@@ -3431,6 +3431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FinishCizgisi
       objectReference: {fileID: 0}
+    - target: {fileID: 8196126394469778521, guid: fa6084c0fa7ea4bb08f3ecaee00caacb, type: 3}
+      propertyPath: danceAnimationOverride
+      value: 
+      objectReference: {fileID: 22100000, guid: 60a0f78d6fa3c493f8e7f575826e94c3, type: 2}
     - target: {fileID: 8196126394469778521, guid: fa6084c0fa7ea4bb08f3ecaee00caacb, type: 3}
       propertyPath: kazanmaAnimationOverride
       value: 
