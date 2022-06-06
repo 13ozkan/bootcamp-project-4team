@@ -65,6 +65,8 @@ public class BeyinTrigger : MonoBehaviour
         {
             beyin.transform.GetChild(0).GetComponent<Animator>().Play("Death");
 
+            beyin.gameObject.GetComponent<BoxCollider>().isTrigger = true;
+
             Invoke("DestroyBrain", 2f);
         }
     }

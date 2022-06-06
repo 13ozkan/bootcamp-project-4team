@@ -2082,7 +2082,7 @@ PrefabInstance:
       objectReference: {fileID: 516958395}
     - target: {fileID: 7263753638012195222, guid: d60a0d1dc1c034edb92bbdda89d16250, type: 3}
       propertyPath: hiz
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8028515795040729145, guid: d60a0d1dc1c034edb92bbdda89d16250, type: 3}
       propertyPath: m_Name
