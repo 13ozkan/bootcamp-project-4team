@@ -20,8 +20,23 @@ public class BeyinTrigger : MonoBehaviour
         //Dokunursak ve boss'un canı 0 değilse animasyonları override yaparak savas moduna sok
         if (other.gameObject.tag == "Collected" && PlayerPrefs.GetInt("BeyinCan")!=0)
         {
-            //beyin modeline animator childobject olan joint içerisinde ekli
-            beyin.transform.GetChild(0).GetComponent<Animator>().Play("Hit1");
+            //beyin attack ve hit animasyonlarını rastgele oynat
+            int randomAnimasyonSayisi = Random.Range(0, 3);
+            if (randomAnimasyonSayisi == 1)
+            {
+                
+                beyin.transform.GetChild(0).GetComponent<Animator>().Play("Hit1");
+            }
+            else if (randomAnimasyonSayisi == 2)
+            {
+                
+                beyin.transform.GetChild(0).GetComponent<Animator>().Play("Hit2");
+            }
+            else if (randomAnimasyonSayisi == 3)
+            {
+                
+                beyin.transform.GetChild(0).GetComponent<Animator>().Play("Attack1");
+            }
 
             //beynin üzerinde rastgele yerlerde duman particle effect olustur
             GameObject duman = Instantiate(dumanYokOlma);
@@ -49,6 +64,15 @@ public class BeyinTrigger : MonoBehaviour
         else
         {
             beyin.transform.GetChild(0).GetComponent<Animator>().Play("Death");
+
+            Invoke("DestroyBrain", 2f);
         }
+    }
+
+    //Beyni yok et
+    public void DestroyBrain()
+    {
+        Destroy(beyin);
+
     }
 }
